@@ -2,7 +2,7 @@
 <html>
 <head lang="ja">
     <meta charset="UTF-8"></meta>
-    <title></title>
+    <title>献立追加なう</title>
 </head>
 <body>
     <form action="/new" method="post">
