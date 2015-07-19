@@ -6,5 +6,11 @@
 </head>
 <body>
     <h1>Kondate Table</h1>
+    <ul>
+        % for menu in menus:
+            <li>{{ menu['name'] }}</li>
+            <li>{{ menu['kcal'] }}</li>
+        % end
+    </ul>
 </body>
 </html>
