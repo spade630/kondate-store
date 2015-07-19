@@ -18,4 +18,8 @@ def create_table():
 def get_index():
     return menus.select().execute().fetchall()
 
+def create_menu(name, kcal):
+    menus.insert().execute(name=name, kcal=kcal)
+
+
 
