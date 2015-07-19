@@ -13,8 +13,8 @@ def new_menu():
 def add_menu():
     name = request.forms.name
     kcal = int(request.forms.kcal)
-
-    db.create_menu(name, kcal)
+    image_url = request.forms.image_url
+    db.create_menu(name, kcal, image_url)
     redirect('/')
 
 run(host="localhost", port=8080)

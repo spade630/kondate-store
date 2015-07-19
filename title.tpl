@@ -9,7 +9,10 @@
     % for menu in menus:
         <ul>
             <li>{{ menu['name'] }}</li>
-            <li>{{ menu['kcal'] }}</li>
+            <li>{{ menu['kcal'] }} kcal</li>
+            % if menu['image_url']:
+                <li><img src="{{ menu['image_url']}}" width=300 height=200></li>
+            % end
         </ul>
     % end
 </body>

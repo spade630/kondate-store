@@ -13,6 +13,9 @@
             カロリー：<input type="text" name="kcal"></input>
         </p>
         <p>
+            URL：<input type="text" name="image_url"></input>
+        </p>
+        <p>
             <input type="submit"></input>
         </p>
     </form>
